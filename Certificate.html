@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="certificate.css">
+    <script>
+        function name1() {
+            a = prompt("Enter your name")
+            document.getElementById("name").innerHTML = a
+        }
+        function clock() {
+            x = new Date()
+
+            d = x.getDate()
+            m = x.getMonth() + 1
+            y = x.getYear() - 100
+
+            document.getElementById("a7").innerHTML = d + "/" + m + "/" + "20" + y
+
+        }
+        setInterval("clock()", 1000)
+    </script>
+</head>
+
+<body>
+    <button onclick="name1()">CLICK TO GET CERTIFICATE</button>
+    <div class="a1">
+        <h1 class="a32">
+            <center>
+                <italic>Kanishk.PVT.LTD</italic>
+            </center>
+            <hr>
+        </h1>
+        <br>
+
+
+        <p id="a7">date</p>
+        <center>
+            <h2> <b>
+                    <m>Certificate of Completion</m>
+                </b> </h2>
+            <br>
+            <p><b> This Certificate is Proudly Presented to Mr.<span id="name"></span> has Successfully Completed Six
+                    weeks training on Web development course From 12th May to 9th June.The Training consisted of
+                    introduction to Html,CSS,JAVASCRIPT in the final assessment. He scored 80% marks. <br> We wish for
+                    student,all the best for his future endeavors<b></b> </b></p>
+        </center>
+        <div class=a2>
+            <b>:-By ISO CERTIFIED 9001:2001</b>
+        </div>
+        <div class="a3">
+            <b>Signature...........</b>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+.nav{
+    margin-left: -40%;
+    margin-top: 10px;
+    height: 40px;
+    width:100%;
+    opacity: 0.8px;
+}
+.head{
+    margin-left: 40%;
+    margin-top: 5px;
+    padding: 0px;
+    color: brown;
+    font-size:xx-large;
+    font-style: italic;
+}
+.a1{
+    opacity: 0.8px;
+    height:100%;
+    width:100%;
+    background-color:cornflowerblue;
+    padding: 25px;
+      
+}
+.a101{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-style: oblique;
+    font-size: x-large;
+    padding: 5px;
+}
+li{
+    margin-left: 2%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+p{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+body{
+    background-color: white;
+    background-image: url(images1.jfif);
+    background-size: 100% 100%;
+}
+.a344{
+    margin-left: 40px;
+    margin-top: 8px;
+    font-size: medium;
+    display: inline;
+}
+.New2{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: medium;
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+.p11{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+}
+.a11{
+        margin-top: 15px;
+        margin-left: 50px;
+        font-size: 20px;
+        color: black;
+}
+.a12{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+.a13{
+    margin-top: 18px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.a14{
+    margin-top: 17px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+.p12{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+}
+.p13{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+
+}
+.p14{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+}
+.p15{
+        margin-top: 30px;
+        margin-left: 25%;
+        font-size: 20px;
+        color: black;
+    
+}
+.p16{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+
+}
+.p17{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+
+}
+.p18{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+}
+.p19{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+}
+.p20{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+}
+.p21{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+}
+.p22{
+    margin-top: 30px;
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+}
+.Result1{
+    margin-left: 40%;
+    margin-top: 30px; 
+    font-size: 25px; 
+    padding: 20px; 
+    display: inline;
+}
+.q13{
+    background-image: url(images9.jpg);
+    width: 55%;
+    height: 100%; 
+    margin-top: 40px; 
+    margin-left: 300px;
+    background-size: 100% 100%;
+}

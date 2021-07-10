@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quizz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        var total = 0, final;
+        $(document).ready(function () {
+            $("#a344").click(function () {
+                $("#q13").slideDown(1000);
+            });
+        });
+        function tot(event) {
+            total = 0;
+            var q1 = document.quiz.question1.value;
+            var q2 = document.quiz.question2.value;
+            var q3 = document.quiz.question3.value;
+            var q4 = document.quiz.question4.value;
+            var q5 = document.quiz.question5.value;
+            var q6 = document.quiz.question6.value;
+            var q7 = document.quiz.question7.value;
+            var q8 = document.quiz.question8.value;
+            var q9 = document.quiz.question9.value;
+            var q10 = document.quiz.question10.value;
+            var q11 = document.quiz.question11.value;
+            var q12 = document.quiz.question12.value;
+            var final = document.getElementById("q13")
+            if (q1 == 'd') {
+                total++;
+                total++
+            }
+            else {
+                total--;
+            }
+            if (q2 == 'a') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q3 == 'b') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q4 == 'b') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q5 == 'c') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q6 == 'a') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q7 == 'b') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q8 == 'a') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q9 == 'a') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q10 == 'a') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q11 == 'a') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            if (q12 == 'a') {
+                total++;
+                total++;
+            }
+            else {
+                total--;
+            }
+            console.log(total);
+            if (total >= 18)
+                alert("Your score is " + total);
+            else
+                alert("Sorry not eligble For certificate");
+            event.preventDefault();
+            document.getElementById("q13").style.display = "none";
+        }
+        console.log(total);
+        function check() {
+            console.log(total)
+            if (total >= 18)
+                window.open("http://127.0.0.1:5500/Certificate.html");
+            else
+                alert("Not qualified for next round")
+        }
+    </script>
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="head">KANISHK PVT LTD
+    </div>
+    <div class="a1">
+        <h2 class="head"><b>Quiz competition</b></h2>
+    </div>
+    <div class="a101"></div>
+    <p> <b>Read the Instructions carefully :--</b></p>
+    <ol>
+        <li>
+            This Set consist 12 questions.
+        </li>
+        <li>
+            Each question has 2 mark.
+        </li>
+        <li>
+            There will be a Negative marking.
+        </li>
+    </ol>
+    </div>
+    <div class="a344">
+        <button>
+            Start quiz
+        </button>
+    </div>
+
+    <div class="New2">
+        <button id="New" onclick="check()">
+            Next
+        </button></a>
+    </div>
+    <div class="q13">
+        <form name="quiz">
+            <div class="p11">
+                <p>
+                    1.which of the following is a framework.?
+                </p>
+                <p><input type="radio" name="question1" value="a" id="a11"> c++</p>
+                <p><input type="radio" name="question1" value="b" id="a12"> c</p>
+                <p><input type="radio" name="question1" value="c" id="a13"> java</p>
+                <p><input type="radio" name="question1" value="d" id="a14"> Html</p>
+            </div>
+            <hr>
+            <div class="p12">
+                <p>2.Which of the following is data-type.?</p>
+                <p><input type="radio" name="question2" value="a" id="a15">Int</p>
+                <p><input type="radio" name="question2" value="b" id="a16">For</p>
+                <p><input type="radio" name="question2" value="c" id="a17">while</p>
+                <p><input type="radio" name="question2" value="d" id="a17">do-while</p>
+            </div>
+            <hr>
+            <div class="p13">
+                <p>3.The minimum number of comparisons required to determine if an integer appears more than n/2 times
+                    in a sorted array of n integers is.?</p>
+                <p><input type="radio" name="question3" value="a" id="a18">O(n)</p>
+                <p><input type="radio" name="question3" value="b" id="a19">O(logn)</p>
+                <p><input type="radio" name="question3" value="c" id="a20">O(n*n)</p>
+                <p><input type="radio" name="question3" value="d" id="a21">O(1)</p>
+            </div>
+            <hr>
+            <div class="p14">
+                <p>4. #include <"stdio.h"><br>
+                        int main() <br>
+                        { <br>
+                        int x, y = 5, z = 5;<br>
+                        x = y == z; <br>
+                        printf("%d", x); <br>
+                        getchar(); <br>
+                        return 0; <br>
+                        }.<br>
+                        ?</p>
+                <p><input type="radio" name="question4" value="a" id="a22">O</p>
+                <p><input type="radio" name="question4" value="b" id="a23">l</p>
+                <p><input type="radio" name="question4" value="c" id="a24">5</p>
+                <p><input type="radio" name="question4" value="d" id="a25">Compile error</p>
+            </div>
+            <hr>
+            <div class="p15">
+                <p>5. #include <stdio.h><br>
+
+                        int main()<br>
+                        {
+                        int i = 1, 2, 3;<br>
+
+                        printf("%d", i);<br>
+
+                        return 0;<br>
+                        }<br>
+                        ?</p>
+                <p><input type="radio" name="question5" value="a" id="a26">1</p>
+                <p><input type="radio" name="question5" value="b" id="a27">3</p>
+                <p><input type="radio" name="question5" value="c" id="a28">5</p>
+                <p><input type="radio" name="question5" value="d" id="a29">Garbage value</p>
+            </div>
+            <hr>
+            <div class="p16">
+                <p>Ques.6 which tag is used to break a line in html.? </p>
+                <p><input type="radio" name="question6" value="a" id="a26">br</p>
+                <p><input type="radio" name="question6" value="b" id="a27">hr</p>
+                <p><input type="radio" name="question6" value="c" id="a28">break</p>
+                <p><input type="radio" name="question6" value="d" id="a29">none of these</p>
+
+            </div>
+            <hr>
+            <div class="p17">
+                <p>Ques.7 Which Tag is used to give a first heading.? </p>
+                <p><input type="radio" name="question7" value="a" id="a30">heading1</p>
+                <p><input type="radio" name="question7" value="b" id="a31">h1</p>
+                <p><input type="radio" name="question7" value="c" id="a32">h7</p>
+                <p><input type="radio" name="question7" value="d" id="a33">none of these</p>
+            </div>
+            <hr>
+            <div class="p18">
+                <p>Ques.8 Which Tag is used to create a table.?</p>
+                <p><input type="radio" name="question8" value="a" id="a34">table</p>
+                <p><input type="radio" name="question8" value="b" id="a35">h1</p>
+                <p><input type="radio" name="question8" value="c" id="a36">h7</p>
+                <p><input type="radio" name="question8" value="d" id="a37">none of these</p>
+            </div>
+            <hr>
+            <div class="p19">
+                <p>Ques.9 Which Tag is used to create a paragraph.?</p>
+                <p><input type="radio" name="question9" value="a" id="a38">p</p>
+                <p><input type="radio" name="question9" value="b" id="a39">h1</p>
+                <p><input type="radio" name="question9" value="c" id="a40">h7</p>
+                <p><input type="radio" name="question9" value="d" id="a41">none of these</p>
+            </div>
+            <hr>
+            <div class="p20">
+                <p>Ques.10 how to link css with html.? </p>
+                <p><input type="radio" name="question10" value="a" id="a42">rel,href</p>
+                <p><input type="radio" name="question10" value="b" id="a43">href,rel</p>
+                <p><input type="radio" name="question10" value="c" id="a44">rel,css</p>
+                <p><input type="radio" name="question10" value="d" id="a45">none of these</p>
+            </div>
+            <hr>
+            <div class="p21">
+                <p>Ques.11 Which Tag is used to create a line tag.?</p>
+                <p><input type="radio" name="question11" value="a" id="a46">hr</p>
+                <p><input type="radio" name="question11" value="b" id="a47">br</p>
+                <p><input type="radio" name="question11" value="c" id="a48">line</p>
+                <p><input type="radio" name="question11" value="d" id="a49">none of these</p>
+            </div>
+            <hr>
+            <div class="p22">
+                <p>Ques.12 In css how to give a center of text.?</p>
+                <p><input type="radio" name="question12" value="a" id="a50">text align:center</p>
+                <p><input type="radio" name="question12" value="b" id="a51">center</p>
+                <p><input type="radio" name="question12" value="c" id="a52">text align:bottom</p>
+                <p><input type="radio" name="question12" value="d" id="a53">none of these</p>
+            </div>
+            <br>
+            <div class="Result1">
+                <button id="Result" onclick="tot(event)" class="btn btn-success btn-lg">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+
+
+    </div>
+</body>
